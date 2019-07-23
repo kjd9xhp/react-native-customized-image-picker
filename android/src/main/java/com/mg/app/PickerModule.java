@@ -298,7 +298,7 @@ class PickerModule extends ReactContextBaseJavaModule {
                     break;
             }
         }else{
-            rxGalleryFinal.imageLoader(ImageLoaderType.GLIDE);
+            rxGalleryFinal.imageLoader(ImageLoaderType.PICASSO);
         }
         if(!this.multiple) {
             if(cropping){
@@ -422,7 +422,7 @@ class PickerModule extends ReactContextBaseJavaModule {
                         break;
                 }
             }else{
-                rxGalleryFinal.imageLoader(ImageLoaderType.GLIDE);
+                rxGalleryFinal.imageLoader(ImageLoaderType.PICASSO);
             }
             if(!this.multiple) {
                 if(cropping){
